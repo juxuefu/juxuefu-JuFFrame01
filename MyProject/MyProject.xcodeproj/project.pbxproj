@@ -16,6 +16,7 @@
 		512EA5AE21D1B20C002FF1AE /* MyProjectTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 512EA5AD21D1B20C002FF1AE /* MyProjectTests.m */; };
 		512EA5B921D1B20C002FF1AE /* MyProjectUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 512EA5B821D1B20C002FF1AE /* MyProjectUITests.m */; };
 		512EA5C721D1B236002FF1AE /* Pod项目说明.md in Resources */ = {isa = PBXBuildFile; fileRef = 512EA5C621D1B236002FF1AE /* Pod项目说明.md */; };
+		512EA5CB21D1B304002FF1AE /* FFPerson.m in Sources */ = {isa = PBXBuildFile; fileRef = 512EA5C921D1B304002FF1AE /* FFPerson.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -53,6 +54,8 @@
 		512EA5B821D1B20C002FF1AE /* MyProjectUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MyProjectUITests.m; sourceTree = "<group>"; };
 		512EA5BA21D1B20C002FF1AE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		512EA5C621D1B236002FF1AE /* Pod项目说明.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = "Pod项目说明.md"; sourceTree = "<group>"; };
+		512EA5C921D1B304002FF1AE /* FFPerson.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FFPerson.m; sourceTree = "<group>"; };
+		512EA5CA21D1B304002FF1AE /* FFPerson.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FFPerson.h; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -104,6 +107,7 @@
 		512EA59321D1B20B002FF1AE /* MyProject */ = {
 			isa = PBXGroup;
 			children = (
+				512EA5C821D1B2D8002FF1AE /* MyFrame */,
 				512EA59421D1B20B002FF1AE /* AppDelegate.h */,
 				512EA59521D1B20B002FF1AE /* AppDelegate.m */,
 				512EA59721D1B20B002FF1AE /* ViewController.h */,
@@ -133,6 +137,15 @@
 				512EA5BA21D1B20C002FF1AE /* Info.plist */,
 			);
 			path = MyProjectUITests;
+			sourceTree = "<group>";
+		};
+		512EA5C821D1B2D8002FF1AE /* MyFrame */ = {
+			isa = PBXGroup;
+			children = (
+				512EA5CA21D1B304002FF1AE /* FFPerson.h */,
+				512EA5C921D1B304002FF1AE /* FFPerson.m */,
+			);
+			path = MyFrame;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -266,6 +279,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				512EA5CB21D1B304002FF1AE /* FFPerson.m in Sources */,
 				512EA59921D1B20B002FF1AE /* ViewController.m in Sources */,
 				512EA5A421D1B20C002FF1AE /* main.m in Sources */,
 				512EA59621D1B20B002FF1AE /* AppDelegate.m in Sources */,
