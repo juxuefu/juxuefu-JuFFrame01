@@ -7,7 +7,7 @@
 //
 
 #import "ViewController.h"
-
+#import "MyFrame/FFPerson.h"
 @interface ViewController ()
 
 @end

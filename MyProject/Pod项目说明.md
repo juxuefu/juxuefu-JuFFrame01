@@ -61,11 +61,11 @@ b)  在`viewDidLoad`方法中增加:
 1）在说明栏输入：`框架开发完成`-->提交
 [8](回到github主页)
 1）在浏览器地址栏刷新`JuFFrame`-->点击项目名称-->浏览器地址中就是项目地址:
-`https://github.com/juxuefu/JuFFrame`
+`https://github.com/juxuefu/juxuefu-JuFFrame01`
 [9](进入终端)
-1）进入本机项目目录: cd  /Users/xuefuju/01_SWIFT/JuFFrame/MyProject
-2）输入: pod spec create https://github.com/juxuefu/JuFFrame -->
-3）项目目录下多了一个`JuFFrame.podspec`文件-->打开-->
+1）进入本机项目目录: cd  /Users/xuefuju/01_SWIFT/JuFFrame01/MyProject
+2）输入: pod spec create https://github.com/juxuefu/juxuefu-JuFFrame01 -->
+3）项目目录下多了一个`JuFFrame01.podspec`文件-->打开-->
      参照`JuFFDemo.podspec.png`编辑，完成如下:
      `Pod::Spec.new do |s|
      s.name         = "JuFFDemo"
